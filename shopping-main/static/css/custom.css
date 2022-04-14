@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap');
+
+body {
+    font-family: 'Comfortaa', cursive !important;
+}
+
+.show-detail,
+.store {
+    position: fixed;
+    background:#a7a6a68c;
+    width:100%;
+    height:100%;
+    top:0;
+    left:0;
+}
+.box-detail,
+.box-store {
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.box-detail #detail,
+.box-store #store {
+    background: white;
+    border-radius: 5px;
+    padding: 40px;
+    box-shadow: 0px 0px 10px 3px #6a6a76;
+    position: relative;
+    max-height: 700px;
+    overflow-y: scroll;
+}
+.box-detail #detail #close,
+.box-store #store #close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+.box-detail #detail #close i,
+.box-store #store #close i {
+    font-weight: bold;
+    font-size: 25px;
+}
+.box-detail #detail #slide-img img {
+    width: 100%;
+    height: auto;
+    margin-top:10px;
+    cursor: pointer;
+}
+.box-detail #detail #main-img img {
+    width: 100%;
+    height: auto;
+}
+.box-detail #detail #quality button,
+.box-detail #detail #quality input {
+    width: 40px;
+    height:40px;
+    border-radius: 5px;
+    border: 1px solid #212529;
+    text-align: center;
+    outline:none;
+}
+.box-detail #detail #info-detail p {
+    margin:0;
+    margin-top:20px;
+    margin-bottom:10px;
+}
+.none {
+    display: none !important;
+}
+.box-detail #detail #info-detail #giagoc span {
+    text-decoration: line-through !important;
+}
+.allStore {
+}
+.itemStore{
+    display: flex;
+    border:1px solid #b9b9b9;
+    padding:20px;
+    border-radius: 10px;
+    margin-bottom:20px;
+}
+.itemStore #img {
+    max-width: 90px;
+    height: 80px;
+}
+.itemStore #img img {
+    width: 100%;
+    height: 100%;
+}
+.itemStore #info {
+    position: relative;
+}
+.itemStore #info a {
+    position: absolute;
+    bottom: 0;
+    left: 10px;
+    font-size:12px;
+}
+.itemStore #info p {
+    margin:0;
+    margin-top:5px;
+}
+.itemStore #info p span {
+    margin:0 10px;
+    margin-top:10px;
+    font-size:17px;
+}
+.payment {
+    border:1px solid #b9b9b9;
+    padding:20px;
+    border-radius: 10px;
+}
+.payment #code-sale {
+    border: 1px solid #b9b9b9;
+    border-radius: 5px;
+}
+.payment #code-sale h5{
+    background:black;
+    color:white;
+    border-radius: 5px 5px 0 0;
+    padding:10px;
+    font-size:15px;
+}
+.payment #code-sale .input-group {
+    padding:0 10px;
+}
+.payment #code-sale input,
+.payment #code-sale button {
+    font-size:15px;
+    outline:none !important;
+    border-color:#ced4da !important;
+}
+.payment #code-sale button {
+    border-radius: 0 5px 5px 0;
+}
+.payment #code-sale input:focus,
+.payment #code-sale button:focus{
+    border-color: #ced4da !important;
+    box-shadow:none !important;
+}
+.box-detail #list-size .btn-dark {
+    color:white !important;
+}
